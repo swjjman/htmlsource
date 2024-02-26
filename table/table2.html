@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    table {
+      width: 500px;
+      margin-bottom: 20px;
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <th>company</th>
+        <th>contact</th>
+        <th>country</th>
+      </tr>
+
+      <tr>
+        <th>Alfreds</th>
+        <th>Francisco</th>
+        <th>Mexico</th>
+      </tr>
+      <tr>
+        <td>Alfreds</td>
+        <td>Francisco</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    <table>
+        <tr>
+            <!-- 병합
+            1)열 병합(colspan) : 값은 병합하고자 하는 셀의 개수
+            2)행 병합(rowspan) : 값은 병합하고자 하는 셀의 개수 
+     -->
+           <td colspan="2">3</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+          <th>company</th>
+          <th>contact</th>
+          <th>country</th>
+        </tr>
+  
+        <tr>
+          <th>Alfreds</th>
+          <th>Francisco</th>
+          <th>Mexico</th>
+        </tr>
+        <tr>
+          <td>Alfreds</td>
+          <td>Francisco</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+      <table>
+          <tr>
+              <td rowspan="2">1</td>
+              <td>2</td>
+          </tr>
+
+          <tr>
+        
+              <td>4</td>
+          </tr>
+      </table>
+  </body>
+</html>
